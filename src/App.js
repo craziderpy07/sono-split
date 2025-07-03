@@ -6,7 +6,6 @@ import {
   Bar,
   XAxis,
   YAxis,
-  Tooltip,
   Legend,
   LabelList,
   Cell,
@@ -129,9 +128,9 @@ function App() {
       </section>
 
       <div className="image-gallery-section">
-        <div className="customization-image-grid">
+        <div className="afford-image-grid">
           <img
-            src="https://i.imgur.com/CxUcjCt.png"
+            src="https://cdn-icons-png.flaticon.com/512/1977/1977285.png"
             alt="product-design"
           />
         </div>
@@ -175,23 +174,11 @@ function App() {
         </p>
       </section>
 
-      <div className="image-gallery-section">
-        <div className="image-grid">
+            <div className="image-gallery-section">
+        <div className="afford-image-grid">
           <img
-            src="https://i.imgur.com/lQZ6kLf.jpeg"
-            alt="main-menu"
-          />
-          <img
-            src="https://i.imgur.com/Ff8qkhG.jpeg"
-            alt="settings"
-          />
-          <img
-            src="https://i.imgur.com/BCiryEc.jpeg"
-            alt="music-library"
-          />
-          <img
-            src="https://i.imgur.com/UWEN155.jpeg"
-            alt="playing-music"
+            src="https://cdn-icons-png.flaticon.com/512/5632/5632321.png"
+            alt="sd-card"
           />
         </div>
       </div>
@@ -284,7 +271,7 @@ function App() {
           <thead>
             <tr>
               <th>Product</th>
-              <th>Customization</th>
+              <th>Individuality</th>
               <th>Beginner Friendly</th>
               <th>Affordability</th>
             </tr>
@@ -380,6 +367,26 @@ function App() {
         </p>
 
         <div className="team-members">
+        <div className="team-member">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/4109/4109591.png"
+              alt="computer-science-intern"
+              className="team-image"
+            />
+            <h3>Teresa</h3>
+            <p>Product Management Intern (Computer Science)</p>
+          </div>
+
+          <div className="team-member">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/1933/1933920.png"
+              alt="business-intern"
+              className="team-image"
+            />
+            <h3>Margarita</h3>
+            <p>Product Management Intern (Business)</p>
+          </div>
+
           <div className="team-member">
             <img
               src="https://cdn-icons-png.flaticon.com/256/6213/6213479.png"
@@ -387,7 +394,7 @@ function App() {
               className="team-image"
             />
             <h3>Brenden</h3>
-            <p>Team Lead</p>
+            <p>Product Development Team Lead</p>
           </div>
 
           <div className="team-member">
